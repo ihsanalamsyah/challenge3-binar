@@ -396,13 +396,15 @@
   .footer .container .row-2{
     margin-top: 42px;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
   }
   .footer .container .row-2 .copyright{
-      font-size: 15px;
+      font-size: .9rem;
   }
   .footer .container .row-2 .copyright2{
     letter-spacing: 0.004em;
-    font-size: 15px;
+    font-size: .9rem;
   }
 
   .footer .container .row-1{

@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
@@ -17,20 +17,20 @@
     <title>Challenge 3 Binar</title>
 </head>
 <body>
-  <div class="header">
+  <div class="header" id="Home">
     
 
       <!--------------- navbar ------------------->
 
       <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand text-white" href="#"><b>LOGO</b></a>
+          <a class="navbar-brand text-white" href="#Home"><b>LOGO</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"\>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#HOME">HOME</a>
+                <a class="nav-link text-white" href="#Home">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">WORK</a>
@@ -43,8 +43,8 @@
               </li>
             </ul>
             <span class="navbar-text">
-              <a class="nav-link text-white " style="display: inline;">SIGN UP</a>
-              <a class="nav-link text-white" style="display: inline;">LOGIN</a>
+              <a class="nav-link text-white " style="display: inline;" href="#">SIGN UP</a>
+              <a class="nav-link text-white" style="display: inline;" href="#">LOGIN</a>
             </span>
           </div>
       </nav>
@@ -55,7 +55,7 @@
         <div class="row-1">
           <h1 class="display-4"> <b>PLAY TRADITIONAL GAME</b></h1>
           <p>Experience new traditional gameplay</p>
-          <button type="button" class="btn"><b>PLAY NOW</b></button>
+          <a href="" type="button" class="btn"><b>TRIAL</b></a>
         </div>
         <p class="row-2" style="display: block;">THE STORY</p>
         <p class="row-3" style="display: block;">
@@ -71,7 +71,7 @@
   <!----------------- carousel ------------------------------>
   
   <div class="thegames"
-  style="display: grid; grid-template-columns: 400px 949px; grid-gap: 5px;">
+  style="display: grid; grid-template-columns: 400px 949px; grid-gap: 5px;" id="About">
 
 <div class="col-1">
 
@@ -87,11 +87,11 @@
   
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"> </button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+      <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -131,7 +131,7 @@
 </div>
 
  <!------------- features -------------->
-  <div class="features">
+  <div class="features" id="Features">
 
     <center>
     <div class="row-1">
@@ -186,7 +186,7 @@
 
 <!------------- system requirements -------------->
 
-<div class="requirements">
+<div class="requirements" id="System-Requirements">
     <div class="row-1">
       <center>
       <p>Can My Computer Run this game?</p>
@@ -240,7 +240,7 @@
 
 <!--------------- top-scores ------------------>
 
-<div class="top-scores" style="display: grid; grid-template-columns: 674.5px 674.5px;">
+<div class="top-scores" style="display: grid; grid-template-columns: 674.5px 674.5px;" id="Quotes">
 
   <div class="col-1">
 
@@ -1211,28 +1211,20 @@
       <div class="col-1" style="display: grid; grid-template-columns: 95px 90px 150px 200px 140px; margin-bottom: -27px;"  >
         
         <div class="item">
-      <p style="display: inline;">MAIN</p>
+      <a style="display: inline;" href="#Home">MAIN</a>
         </div>
         <div class="item">
-          <p style="display: inline;">ABOUT</p>
+          <a style="display: inline;" href="#About">ABOUT</a>
             </div>
         <div class="item">
-      <p style="display: inline;">GAME FEATURES</p>
+      <a style="display: inline;" href="#Features">GAME FEATURES</a>
         </div>
         <div class="item">
-      <p style="display: inline;">SYSTEM REQUIREMENTS</p>
+      <a style="display: inline;" href="#System-Requirements">SYSTEM REQUIREMENTS</a>
         </div>
          <div class="item">
-       <p style="display: inline;">QUOTES</p>
+       <a style="display: inline;" href="#Quotes">QUOTES</a>
          </div>
-
-      <!----<p style="display: inline;">ABOUT</p>
-         
-       
-      <p style="display: inline;">SYSTEM REQUIREMENTS</p>
-       
-        
-      <P style="display: inline;">QUOTES</P> --->
       
 
       </div>
@@ -1267,7 +1259,7 @@
     <div class="row-2">
       <hr>
       <p class="copyright" style="display: inline; color: #A9A9A9;" >&#169; 2018 Your Games, Inc. All Rights Reserved</p>
-      <p class="copyright2" style="display: inline; margin-left: 374px;">PRIVACY POLICY |</p>
+      <p class="copyright2" style="display: inline;">PRIVACY POLICY |</p>
       <p class="copyright2" style="display: inline;">TERMS OF SERVICES |</p>
       <p class="copyright2" style="display: inline;">CODE OF CONDUCT</p>
     </div>
